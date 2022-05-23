@@ -1,0 +1,4 @@
+in		,	test
+test			end	loop
+loop		.	loop
+end		.	halt
