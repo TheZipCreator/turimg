@@ -1,3 +1,4 @@
+;prints "Hello, World!" (ascii mode)
 set0	>	0	set1
 set1	<	1	c0
 c0	>	.	c1

@@ -87,7 +87,7 @@ int main(string[] args) {
     } else {
       states[name] = State(dir, set, next0, next1);
     }
-    if(i == 0) state = name; //use the first state as the initial state
+    if(state == "") state = name; //use the first state as the initial state
   }
   while(state != "halt") {
     if(!(state in states)) {
